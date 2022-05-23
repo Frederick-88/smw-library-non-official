@@ -13,7 +13,11 @@
       height="100px"
     >
       <div class="navbar__container d-flex justify-space-between align-center">
-        <router-link to="/" class="d-flex align-center">
+        <router-link
+          to="/"
+          class="d-flex align-center"
+          @click.native="scrollToTop"
+        >
           <img
             class="navbar-logo"
             :src="require('@/assets/images/smw-logo.png')"
@@ -26,6 +30,7 @@
               v-if="nav.isRouterLink"
               :to="nav.link"
               :class="navButtonClass(nav.key, !!nav.isLast)"
+              @click.native="scrollToTop"
             >
               {{ nav.name }}
             </router-link>
@@ -60,7 +65,11 @@
       :class="{ 'is-active': isShowMobileNavbar }"
     >
       <v-app-bar class="mobile-navbar black" dark app>
-        <router-link to="/" class="d-flex align-center">
+        <router-link
+          to="/"
+          class="d-flex align-center"
+          @click.native="scrollToTop"
+        >
           <img
             class="navbar-logo"
             :src="require('@/assets/images/smw-logo.png')"
@@ -86,6 +95,7 @@
               v-if="nav.isRouterLink"
               :to="nav.link"
               :class="sidebarButtonClass(nav.key)"
+              @click.native="scrollToTop"
             >
               {{ nav.name }}
             </router-link>
@@ -267,6 +277,9 @@ export default {
       this.fetchBookCollection();
       this.fetchPartner();
       this.fetchLibraryDetail();
+    },
+    scrollToTop() {
+      window.scrollTo(0, 0);
     },
     handleScroll() {
       const position = document.documentElement;
