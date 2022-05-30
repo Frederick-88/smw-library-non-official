@@ -7,7 +7,7 @@
         </v-col>
         <v-col class="vision-description-column" cols="12" md="6">
           <div>
-            <h2 class="vision-title text-center mb-5">Visi</h2>
+            <h2 class="vision-title text-center mb-5">Vision</h2>
             <p
               class="px-0 px-md-8 vision-description text--secondary text-subtitle-2 text-sm-subtitle-1"
             >
@@ -26,7 +26,7 @@
       <v-row class="mission">
         <v-col class="mission-description-column" cols="12" md="6">
           <div>
-            <h2 class="mission-title text-center mb-5">Misi</h2>
+            <h2 class="mission-title text-center mb-5">Mission</h2>
             <p
               class="px-0 px-md-8 mission-description text--secondary mb-0 text-subtitle-2 text-sm-subtitle-1"
             >
