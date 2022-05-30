@@ -1,7 +1,7 @@
 <template>
   <div class="profile-organization-structure">
     <h2 class="organization-structure-title text-center">
-      Struktur Organisasi
+      Organization Structure
     </h2>
     <v-img
       v-if="organizationStructureImage"
