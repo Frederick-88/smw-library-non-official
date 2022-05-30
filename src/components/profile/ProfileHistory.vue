@@ -1,9 +1,7 @@
 <template>
   <div class="profile-history mt-15" :style="backgroundImageStyle">
     <v-container class="py-0">
-      <h2 class="history-title white--text text-center">
-        Sejarah Perpustakaan
-      </h2>
+      <h2 class="history-title white--text text-center">Library History</h2>
 
       <p
         class="history-description white--text mt-8 mb-0 text-subtitle-2 text-sm-subtitle-1"
