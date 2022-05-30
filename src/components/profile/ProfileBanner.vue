@@ -1,6 +1,6 @@
 <template>
   <v-container class="profile-banner pt-0">
-    <h2 class="banner-title text-center mb-5">Profil Singkat</h2>
+    <h2 class="banner-title text-center mb-5">Short Profile</h2>
 
     <div class="divider-line black">
       <ul>
