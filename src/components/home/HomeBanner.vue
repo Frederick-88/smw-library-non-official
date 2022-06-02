@@ -17,22 +17,22 @@
       </div>
 
       <p class="banner-subtitle white--text">
-        Selamat datang di website perpustakaan SMA Maitreyawira. Temukan
-        berbagai macam buku yang kamu perlukan dan sukai. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit. Ut gravida, quam vitae est Sed non
-        eros elementum nulla sodales ullamcorper.
+        Welcome to SMA Maitreyawira library website. Find and grab your next
+        favourite book. Books are the quietest and most constant of friends;
+        they are the most accessible and wisest of counselors, and the most
+        patient of teachers.
       </p>
 
       <div class="banner__cta-button d-flex flex-column align-center">
         <v-btn
-          href="#fasilitas"
+          href="#facilities"
           class="explore-text white--text mb-1"
           :small="isMobile"
           text
           >Explore</v-btn
         >
         <v-btn
-          href="#fasilitas"
+          href="#facilities"
           fab
           class="arrow-button black--text yellow accent-4"
           ><v-icon small class="arrow">mdi-chevron-double-down</v-icon></v-btn
