@@ -1,6 +1,6 @@
 <template>
-  <v-container id="fasilitas" class="home-facilities mt-10 mt-sm-15">
-    <h2 class="text-center facilities__title">Fasilitas</h2>
+  <v-container id="facilities" class="home-facilities mt-10 mt-sm-15">
+    <h2 class="text-center facilities__title">Facilities</h2>
     <div class="facilities__content">
       <div v-if="isFetchingFacility || !facilityList.length" class="mt-8">
         <Loader :is-skeleton="true" />
