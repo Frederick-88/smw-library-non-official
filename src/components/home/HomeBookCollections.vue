@@ -1,6 +1,6 @@
 <template>
   <v-container class="home-book-collections">
-    <h2 class="text-center book-collections__title">Koleksi Buku</h2>
+    <h2 class="text-center book-collections__title">Book Collections</h2>
     <div class="book-collections__content">
       <div
         v-if="isFetchingBookCollection || !bookCollectionList.length"
