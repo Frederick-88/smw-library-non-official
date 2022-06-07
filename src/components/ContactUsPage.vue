@@ -5,7 +5,7 @@
     </template>
 
     <template v-else>
-      <h2 class="contact-us-title text-center mb-3 mb-sm-5">Hubungi Kami</h2>
+      <h2 class="contact-us-title text-center mb-3 mb-sm-5">Contact Us</h2>
 
       <div class="divider-line black">
         <ul>
