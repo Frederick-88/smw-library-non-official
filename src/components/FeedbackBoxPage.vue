@@ -5,7 +5,7 @@
     </template>
 
     <template v-else>
-      <h2 class="feedback-box-title text-center mb-3 mb-sm-5">Kotak Saran</h2>
+      <h2 class="feedback-box-title text-center mb-3 mb-sm-5">Feedback Box</h2>
 
       <div class="divider-line black">
         <ul>
