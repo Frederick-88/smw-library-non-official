@@ -153,7 +153,7 @@ export default {
           isRouterLink: true,
         },
         {
-          link: "https://elibrary.uvers.ac.id",
+          link: "http://elibrary.uvers.ac.id/elibrary/",
           key: "e-library",
           name: "E-Library",
         },
