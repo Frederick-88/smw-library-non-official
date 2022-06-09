@@ -135,21 +135,21 @@ export default {
           isRouterLink: true,
         },
         {
-          link: "/profil",
+          link: "/profile",
           key: "profile",
-          name: "Profil",
+          name: "Profile",
           isRouterLink: true,
         },
         {
-          link: "/kotak-saran",
+          link: "/feedback-box",
           key: "feedback-box",
-          name: "Kotak Saran",
+          name: "Feedback Box",
           isRouterLink: true,
         },
         {
-          link: "/hubungi-kami",
+          link: "/contact-us",
           key: "contact",
-          name: "Kontak",
+          name: "Contact Us",
           isRouterLink: true,
         },
         {
@@ -241,9 +241,9 @@ export default {
       const path = this.$route.path;
 
       if (path === "/") return "home";
-      else if (path === "/profil") return "profile";
-      else if (path === "/kotak-saran") return "feedback-box";
-      else if (path === "/hubungi-kami") return "contact";
+      else if (path === "/profile") return "profile";
+      else if (path === "/feedback-box") return "feedback-box";
+      else if (path === "/contact-us") return "contact";
       else if (path === "/admin/facilities") return "admin-facilities";
       else if (path === "/admin/programs") return "admin-programs";
       else if (path === "/admin/book-collections")

@@ -30,6 +30,7 @@ A non-official website of https://sma-maitreyawira-library.web.app/ website whic
 - https://live.templately.com/elebrary/#
 - https://asiaproperty.netlify.app/admin/listings -> admin site
 - https://preview.themeforest.net/item/susis-library-book-showcase-html5-template/full_screen_preview/19531594?_ga=2.14505201.791970974.1649518423-2102198413.1628943520
+- https://preview.themeforest.net/item/bookarazi-author-publisher-elementor-template-kit/full_screen_preview/37673052?_ga=2.161335613.1264836578.1653920020-2102198413.1628943520
 
 ---
 

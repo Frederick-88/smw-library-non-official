@@ -18,17 +18,17 @@ const routes = [
     component: Home,
   },
   {
-    path: "/profil",
+    path: "/profile",
     name: "Profile",
     component: Profile,
   },
   {
-    path: "/kotak-saran",
+    path: "/feedback-box",
     name: "FeedbackBox",
     component: FeedbackBox,
   },
   {
-    path: "/hubungi-kami",
+    path: "/contact-us",
     name: "ContactUs",
     component: ContactUs,
   },

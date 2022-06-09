@@ -1,9 +1,7 @@
 <template>
   <div class="home-open-hours mt-10 mt-sm-15" :style="backgroundImageStyle">
     <v-container class="py-0">
-      <h2 class="text-center open-hours__title white--text">
-        Jam Buka Layanan
-      </h2>
+      <h2 class="text-center open-hours__title white--text">Open Hours</h2>
       <div class="schedule-list__container d-flex justify-center mt-7 mt-sm-10">
         <div class="schedule-list">
           <div
@@ -34,16 +32,16 @@ export default {
     return {
       scheduleList: [
         {
-          day: "Senin - Jumat",
+          day: "Monday - Friday",
           value: "12:00 - 22:00",
         },
         {
-          day: "Sabtu",
+          day: "Saturday",
           value: "12:00 - 18:00",
         },
         {
-          day: "Minggu & Hari Libur",
-          value: "Tutup",
+          day: "Sunday & Holidays",
+          value: "Closed",
         },
       ],
     };

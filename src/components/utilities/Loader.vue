@@ -9,13 +9,19 @@
     </template>
     <template v-else>
       <v-row class="d-flex justify-center">
-        <v-col cols="10" md="6" class="pa-0 pr-3">
+        <v-col cols="10" md="6" xl="4" class="pa-0">
           <v-skeleton-loader
             :elevation="5"
             type="image, article"
           ></v-skeleton-loader>
         </v-col>
-        <v-col cols="10" md="6" class="pa-0 pl-3 d-none d-md-block">
+        <v-col cols="10" md="6" xl="4" class="pa-0 pl-6 d-none d-md-block">
+          <v-skeleton-loader
+            :elevation="5"
+            type="image, article"
+          ></v-skeleton-loader>
+        </v-col>
+        <v-col cols="10" md="6" xl="4" class="pa-0 pl-6 d-none d-xl-block">
           <v-skeleton-loader
             :elevation="5"
             type="image, article"
