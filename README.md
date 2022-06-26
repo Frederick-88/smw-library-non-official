@@ -63,7 +63,7 @@ A non-official website of https://sma-maitreyawira-library.web.app/ website whic
 
 ### Instructions :
 
-1. Library SMA Profile Page, Management System itu link ke url -> http://elibrary.uvers.ac.id/elibrary/
+1. Library SMA Profile Page, Management System itu link ke url -> http://elibrary.uvers.ac.id/
 
 2. ada Admin site yang bisa diakses oleh pustakawan
 

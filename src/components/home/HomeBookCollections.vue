@@ -25,7 +25,7 @@
             class="book-collections-item__container"
             v-for="bookCollection in bookCollectionList"
             :key="bookCollection.id"
-            href="http://elibrary.uvers.ac.id/elibrary/"
+            href="http://elibrary.uvers.ac.id/"
             target="_blank"
           >
             <v-card class="book-collections-item">
